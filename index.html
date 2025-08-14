@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Stars</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo-container">
+                <img src="assets/telegram-logo.png" alt="Telegram" class="app-logo">
+                <img src="assets/telegram-star.png" alt="Stars" class="stars-logo">
+            </div>
+            <div class="user-container" id="user-container">
+                <span class="username" id="username">Гость</span>
+                <img src="https://via.placeholder.com/40" alt="User Avatar" class="user-avatar" id="user-avatar">
+            </div>
+        </header>
+
+        <main class="app-main">
+            <section class="empty-state">
+                <img src="assets/duck.gif" alt="Нет кейсов" class="empty-state-gif">
+                <h2 class="empty-state-title">Кейсов пока нет</h2>
+                <p class="empty-state-text">Скоро здесь появятся новые кейсы с крутыми наградами!</p>
+                <p class="empty-state-subtext">Следите за обновлениями в нашем канале</p>
+                <a href="https://t.me/ripsocial" class="channel-link" target="_blank">@ripsocial</a>
+            </section>
+        </main>
+
+        <nav class="app-navigation">
+            <div class="nav-item active">
+                <span class="nav-icon">🏠</span>
+                <span>Главная</span>
+            </div>
+            <div class="nav-item">
+                <span class="nav-icon">👤</span>
+                <span>Профиль</span>
+            </div>
+        </nav>
+    </div>
+
+    <script src="js/user.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
